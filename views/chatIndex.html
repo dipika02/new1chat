@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+	<link rel="stylesheet" type="text/css" href="../css/chatIndex.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Chat Application</h1>
+		<div class="userbox">
+			<!-- <img src="../img/download (2).jpg" class="userImg"> -->
+			<img src="{{user.profilePic}}" class="userImg">
+			<h3 class="userName">{{user.fullName}} | <a href="#">logoOut</a></h3>
+		</div>
+		<div class="new_group">
+			<input type="text" class="newGroup" autocomplete="off">
+				<button id="create">Create Group</button>
+			<!-- </input> -->
+		</div>
+		<div class="grouplist">
+			<ul>
+				<a href="#"><li>school</li></a>
+				<a href="#"><li>clg</li></a>
+				<a href="#"><li>class</li></a>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
